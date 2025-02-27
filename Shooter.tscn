@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhkl3bk6de24l"]
+
+[ext_resource type="Texture2D" uid="uid://ceh7hmpcjkset" path="res://AdobeStock_489308423.jpeg" id="1_ijx17"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AdobeStock489308423" type="Sprite2D" parent="."]
+self_modulate = Color(0.458405, 0.458405, 0.458405, 1)
+position = Vector2(582.309, 424.586)
+rotation = 1.5708
+scale = Vector2(0.225312, 0.329103)
+texture = ExtResource("1_ijx17")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(589, 17)
+rotation = 1.5708
+scale = Vector2(9.1873, -1.47046)
