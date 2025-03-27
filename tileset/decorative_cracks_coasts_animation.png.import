@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceh7hmpcjkset"
-path="res://.godot/imported/AdobeStock_489308423.jpeg-c04b23147757096f9b418a443eb64bd7.ctex"
+uid="uid://dpppbk1vh2qyb"
+path="res://.godot/imported/decorative_cracks_coasts_animation.png-a30a2587eff2d72779eca0eb8c7f16ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AdobeStock_489308423.jpeg"
-dest_files=["res://.godot/imported/AdobeStock_489308423.jpeg-c04b23147757096f9b418a443eb64bd7.ctex"]
+source_file="res://tileset/decorative_cracks_coasts_animation.png"
+dest_files=["res://.godot/imported/decorative_cracks_coasts_animation.png-a30a2587eff2d72779eca0eb8c7f16ac.ctex"]
 
 [params]
 
