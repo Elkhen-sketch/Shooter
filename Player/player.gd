@@ -9,10 +9,12 @@ const Jump_horizontal = 100
 
 enum State { Idle, Run, Jump }
 
-var current_state
+var current_state : State
+
 
 func _ready():
 	current_state = State.Idle
+
 	
 	
 func _physics_process(delta):
