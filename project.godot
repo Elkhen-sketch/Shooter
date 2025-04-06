@@ -17,8 +17,8 @@ config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=560
-window/size/viewport_height=300
+window/size/viewport_width=538
+window/size/viewport_height=346
 window/size/window_width_override=672
 window/size/window_height_override=342
 window/stretch/mode="viewport"
@@ -45,6 +45,7 @@ Jump={
 
 [layer_names]
 
+2d_render/layer_3="tree"
 2d_physics/layer_1="ground"
 2d_physics/layer_2="player"
 
