@@ -7,7 +7,7 @@ const SPEED = 300
 const Jump = -300
 const Jump_horizontal = 100
 
-enum State { Idle, Run, Jump }
+enum State { Idle, Run, Jump, Shot }
 
 var current_state : State
 
@@ -22,6 +22,7 @@ func _physics_process(delta):
 	player_Idle(delta)
 	player_run(delta)
 	player_jump(delta)
+	player_shooting(delta)
 	
 	move_and_slide()
 	
@@ -63,8 +64,13 @@ func player_jump(delta):
 		var direction = Input.get_axis("move_left", "move_right")
 		velocity.x += direction * Jump_horizontal * delta 
 	
-		
-		
+	
+func player_shooting(delta: float):
+	var direction = Input.get_axis("move_left", "move_right")
+	
+	if direction != 0 and Input.is_action_pressed("Shot"):
+		current_state = State.Shot
+
 func player_animations():
 	if current_state == State.Idle:
 		animated_sprite_2d.play("Idle")
@@ -72,4 +78,6 @@ func player_animations():
 		animated_sprite_2d.play("Run")
 	elif current_state == State.Jump:
 		animated_sprite_2d.play("Jump")
+	elif current_state == State.Shot:
+		animated_sprite_2d.play("shot")
 	
