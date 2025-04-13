@@ -7,7 +7,11 @@ const SPEED = 300
 const Jump = -300
 const Jump_horizontal = 100
 
+<<<<<<< HEAD
 enum State { Idle, Run, Jump, Shoot }
+=======
+enum State { Idle, Run, Jump, Shot }
+>>>>>>> 530f1b82dbf11fb30956c665d6d65b35706e49be
 
 var current_state : State
 var shoot_timer := 0.0  
@@ -16,8 +20,16 @@ func _ready():
 	current_state = State.Idle
 
 func _physics_process(delta):
+<<<<<<< HEAD
 	player_shooting(delta)
 
+=======
+	player_falling(delta)
+	player_Idle(delta)
+	player_run(delta)
+	player_jump(delta)
+	player_shooting(delta)
+>>>>>>> 530f1b82dbf11fb30956c665d6d65b35706e49be
 	
 	if shoot_timer <= 0:
 		player_falling(delta)
@@ -61,6 +73,7 @@ func player_jump(delta):
 	if !is_on_floor() and current_state == State.Jump:
 		var direction = Input.get_axis("move_left", "move_right")
 		velocity.x += direction * Jump_horizontal * delta 
+<<<<<<< HEAD
 
 func player_shooting(delta):
 	if Input.is_action_just_pressed("shoot") and is_on_floor():
@@ -77,3 +90,23 @@ func player_animations():
 			animated_sprite_2d.play("Jump")
 		State.Shoot:
 			animated_sprite_2d.play("Shot1")
+=======
+	
+	
+func player_shooting(delta: float):
+	var direction = Input.get_axis("move_left", "move_right")
+	
+	if direction != 0 and Input.is_action_pressed("Shot"):
+		current_state = State.Shot
+
+func player_animations():
+	if current_state == State.Idle:
+		animated_sprite_2d.play("Idle")
+	elif current_state == State.Run:
+		animated_sprite_2d.play("Run")
+	elif current_state == State.Jump:
+		animated_sprite_2d.play("Jump")
+	elif current_state == State.Shot:
+		animated_sprite_2d.play("shot")
+	
+>>>>>>> 530f1b82dbf11fb30956c665d6d65b35706e49be

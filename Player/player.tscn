@@ -5,7 +5,11 @@
 [ext_resource type="Texture2D" uid="uid://c8f7f0ao363yn" path="res://Player/JUmmp.png" id="3_fhl08"]
 [ext_resource type="Texture2D" uid="uid://dayrad5yo5cyl" path="res://Player/Run.png" id="3_k53q1"]
 [ext_resource type="Texture2D" uid="uid://d1wk0yhn7ij4p" path="res://Player/Walk.png" id="4_fhl08"]
+<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://dh8ss58clnmxm" path="res://Player/Shot_1.png" id="5_fhl08"]
+=======
+[ext_resource type="Texture2D" uid="uid://bl7h0cwjn67qo" path="res://Player/Shot_1.png" id="5_fhl08"]
+>>>>>>> 530f1b82dbf11fb30956c665d6d65b35706e49be
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4ntmi"]
 atlas = ExtResource("1_l8h54")
@@ -222,6 +226,23 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_76lrf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_efx54")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_755ss")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bbimk")
+}],
+"loop": true,
+"name": &"shot",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_dkpta")
 }, {
 "duration": 1.0,
@@ -261,7 +282,11 @@ script = ExtResource("1_gwnis")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(2, -86)
 sprite_frames = SubResource("SpriteFrames_00tjw")
+<<<<<<< HEAD
 animation = &"Shot1"
+=======
+animation = &"shot"
+>>>>>>> 530f1b82dbf11fb30956c665d6d65b35706e49be
 autoplay = "Idle"
 frame_progress = 0.211069
 
