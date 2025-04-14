@@ -79,3 +79,8 @@ func enemy_anomations():
 func _on_timer_timeout() -> void:
 	can_walk = true
 	
+
+
+func _on_hurtbox_area_entered(area: Area2D) -> void:
+	print ("Hurt box area entered")
+	

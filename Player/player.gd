@@ -1,6 +1,10 @@
 extends CharacterBody2D
 
+var bullet = preload("res://bullet.tscn")
+
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+@onready var muzzle: Marker2D = $Muzzle
+var muzzle_offset := Vector2.ZERO
 
 const GRAVITY = 1000
 const SPEED = 300 
@@ -10,13 +14,17 @@ const Jump_horizontal = 100
 enum State { Idle, Run, Jump, Shoot }
 
 var current_state : State
+var muzzle_position
 var shoot_timer := 0.0  
 
 func _ready():
 	current_state = State.Idle
+	muzzle_offset = muzzle.position
+
 
 func _physics_process(delta):
 	player_shooting(delta)
+	player_muzzle_position()
 
 	
 	if shoot_timer <= 0:
@@ -64,13 +72,27 @@ func player_jump(delta):
 
 func player_shooting(delta):
 	if Input.is_action_just_pressed("shoot") and is_on_floor():
+		var bullet_instance = bullet.instantiate() as Node2D
+		
+		var shoot_direction = -1 if animated_sprite_2d.flip_h else 1
+		bullet_instance.direction = shoot_direction
+
+		bullet_instance.global_position = muzzle.global_position
+		get_parent().add_child(bullet_instance)
+
 		current_state = State.Shoot
-		shoot_timer = 0.3  
+		shoot_timer = 0.3
+		
+func player_muzzle_position():
+	if animated_sprite_2d.flip_h:
+		muzzle.position.x = -muzzle_offset.x
+	else:
+		muzzle.position.x = muzzle_offset.x
 
 func player_animations():
 	if current_state == State.Idle:
 		animated_sprite_2d.play("Idle")
-	elif current_state == State.Run and animated_sprite_2d.animation != "Run":
+	elif current_state == State.Run and animated_sprite_2d.animation != "Shot1":
 		animated_sprite_2d.play("Run")
 	elif current_state == State.Jump:
 		animated_sprite_2d.play("Jump")

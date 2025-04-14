@@ -886,13 +886,15 @@ tile_set = SubResource("TileSet_be3nb")
 
 [node name="Player" parent="TileMap" index="2"]
 z_index = 1
+position = Vector2(12, 6)
 
-[node name="Camera2D" parent="TileMap/Player" index="2"]
+[node name="Camera2D" parent="TileMap/Player" index="3"]
 position = Vector2(0, -107)
 
 [node name="Enemyvam" parent="." index="3" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
 position = Vector2(547, -34)
 patrol_points = NodePath("PatrolPoints")
+wait_time = 0
 
 [node name="PatrolPoints" type="Node2D" parent="Enemyvam" index="2"]
 
@@ -905,6 +907,7 @@ position = Vector2(130, 8)
 [node name="Enemyvam3" parent="." index="4" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
 position = Vector2(1942, -25)
 patrol_points = NodePath("PatrolPoints")
+wait_time = 1
 
 [node name="PatrolPoints" type="Node2D" parent="Enemyvam3" index="2"]
 

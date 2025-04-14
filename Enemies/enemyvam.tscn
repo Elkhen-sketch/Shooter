@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://bjlpjkyijqc16"]
+[gd_scene load_steps=17 format=3 uid="uid://bjlpjkyijqc16"]
 
 [ext_resource type="Texture2D" uid="uid://b0xdcxgsjdx55" path="res://Enemies/Vampires1_Idle.png" id="1_6lv78"]
 [ext_resource type="Script" uid="uid://xma7tv7kbj73" path="res://Enemies/enemyvam.gd" id="1_8s8kp"]
@@ -93,14 +93,17 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_dlolj"]
-radius = 28.1603
+radius = 32.0156
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8s8kp"]
+radius = 37.054
 
 [node name="Enemyvam" type="CharacterBody2D"]
 script = ExtResource("1_8s8kp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(4, -18)
-scale = Vector2(1.88281, 1.80466)
+position = Vector2(3.5, -27.3324)
+scale = Vector2(2.07813, 2.12647)
 sprite_frames = SubResource("SpriteFrames_8vjxe")
 animation = &"walk_vam"
 autoplay = "Idle_vam"
@@ -108,11 +111,21 @@ frame = 1
 frame_progress = 0.813689
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -19)
+position = Vector2(-2, -26)
 shape = SubResource("CircleShape2D_dlolj")
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 3.0
 autostart = true
 
+[node name="Hurtbox" type="Area2D" parent="."]
+collision_layer = 5
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+position = Vector2(-1, -27)
+shape = SubResource("CircleShape2D_8s8kp")
+debug_color = Color(0.886177, 0.305028, 0.340899, 0.42)
+
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="area_entered" from="Hurtbox" to="." method="_on_hurtbox_area_entered"]

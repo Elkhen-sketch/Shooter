@@ -255,6 +255,7 @@ radius = 33.0
 height = 66.0
 
 [node name="Player" type="CharacterBody2D"]
+position = Vector2(9, 22)
 collision_layer = 2
 script = ExtResource("1_gwnis")
 
@@ -263,8 +264,12 @@ position = Vector2(2, -86)
 sprite_frames = SubResource("SpriteFrames_00tjw")
 animation = &"Shot1"
 autoplay = "Idle"
-frame_progress = 0.211069
+frame = 2
+frame_progress = 0.214864
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, -56)
 shape = SubResource("CapsuleShape2D_gpjlu")
+
+[node name="Muzzle" type="Marker2D" parent="."]
+position = Vector2(34, -23)
