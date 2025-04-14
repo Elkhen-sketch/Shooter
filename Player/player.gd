@@ -10,7 +10,7 @@ const Jump_horizontal = 100
 enum State { Idle, Run, Jump, Shoot }
 
 var current_state : State
-var shoot_timer := 0.0  # Timer to control duration of shoot animation
+var shoot_timer := 0.0  
 
 func _ready():
 	current_state = State.Idle
@@ -18,7 +18,7 @@ func _ready():
 func _physics_process(delta):
 	player_shooting(delta)
 
-	# If currently shooting, skip other movement states
+	
 	if shoot_timer <= 0:
 		player_falling(delta)
 		player_Idle(delta)
@@ -65,15 +65,23 @@ func player_jump(delta):
 func player_shooting(delta):
 	if Input.is_action_just_pressed("shoot") and is_on_floor():
 		current_state = State.Shoot
-		shoot_timer = 0.3  # Shooting lasts 0.3 seconds
+		shoot_timer = 0.3  
 
 func player_animations():
-	match current_state:
-		State.Idle:
-			animated_sprite_2d.play("Idle")
-		State.Run:
-			animated_sprite_2d.play("Run")
-		State.Jump:
-			animated_sprite_2d.play("Jump")
-		State.Shoot:
-			animated_sprite_2d.play("Shot1")
+	if current_state == State.Idle:
+		animated_sprite_2d.play("Idle")
+	elif current_state == State.Run and animated_sprite_2d.animation != "Run":
+		animated_sprite_2d.play("Run")
+	elif current_state == State.Jump:
+		animated_sprite_2d.play("Jump")
+	elif current_state == State.Shoot:
+		animated_sprite_2d.play("Shot1")
+	#match current_state:
+		#State.Idle:
+		#	animated_sprite_2d.play("Idle")
+		#State.Run:
+			#animated_sprite_2d.play("Run")
+		#State.Jump:
+			#animated_sprite_2d.play("Jump")
+		#State.Shoot:
+			#animated_sprite_2d.play("Shot1")
