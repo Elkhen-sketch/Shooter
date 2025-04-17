@@ -1,6 +1,6 @@
 extends CharacterBody2D
-
-var bullet = preload("res://bullet.tscn")
+"res://bullet/bullet.tscn"
+var bullet = preload("res://bullet/bullet.tscn")
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var muzzle: Marker2D = $Muzzle
@@ -39,7 +39,7 @@ func _physics_process(delta):
 
 	move_and_slide()
 	player_animations()
-	print("State: ", State.keys()[current_state])
+	#print("State: ", State.keys()[current_state])
 
 func player_falling(delta):
 	if !is_on_floor():

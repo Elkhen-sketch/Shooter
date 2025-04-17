@@ -1,15 +1,15 @@
 [gd_scene load_steps=7 format=3 uid="uid://bio0ua04b2gcp"]
 
-[ext_resource type="Texture2D" uid="uid://df7eqymqwmbcn" path="res://Player/_anim.png" id="1_v7oki"]
-[ext_resource type="Script" uid="uid://f2fcb231b8fw" path="res://bullet.gd" id="2_v8qja"]
+[ext_resource type="Texture2D" uid="uid://m33ri3f4fr25" path="res://bullet/bullet_ss.png" id="1_6wip1"]
+[ext_resource type="Script" uid="uid://f2fcb231b8fw" path="res://bullet/bullet.gd" id="2_v8qja"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_v8qja"]
-atlas = ExtResource("1_v7oki")
-region = Rect2(0, 0, 111, 60)
+[sub_resource type="AtlasTexture" id="AtlasTexture_0qjqd"]
+atlas = ExtResource("1_6wip1")
+region = Rect2(0, 0, 39, 38)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_t4vbm"]
-atlas = ExtResource("1_v7oki")
-region = Rect2(111, 0, 111, 60)
+[sub_resource type="AtlasTexture" id="AtlasTexture_xvnxm"]
+atlas = ExtResource("1_6wip1")
+region = Rect2(39, 0, 39, 38)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2b2rl"]
 animations = [{
@@ -20,26 +20,26 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_v8qja")
+"texture": SubResource("AtlasTexture_0qjqd")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_t4vbm")
+"texture": SubResource("AtlasTexture_xvnxm")
 }],
 "loop": true,
 "name": &"shot",
-"speed": 11.0
+"speed": 28.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_v8qja"]
-radius = 40.5577
+radius = 14.9423
 
 [node name="Bullet" type="AnimatedSprite2D"]
-position = Vector2(34, 8)
-scale = Vector2(0.468468, 0.516667)
+position = Vector2(27.9324, 0.591663)
+scale = Vector2(0.157311, 0.126755)
 sprite_frames = SubResource("SpriteFrames_2b2rl")
 animation = &"shot"
-frame = 1
-frame_progress = 0.917921
+autoplay = "shot"
+frame_progress = 0.8
 script = ExtResource("2_v8qja")
 
 [node name="Timer" type="Timer" parent="."]
