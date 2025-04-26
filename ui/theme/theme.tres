@@ -1,0 +1,5 @@
+[gd_resource type="Theme" format=3 uid="uid://dpkmv7581osm0"]
+
+[resource]
+Button/constants/icon_max_width = 0
+Button/fonts/font = null

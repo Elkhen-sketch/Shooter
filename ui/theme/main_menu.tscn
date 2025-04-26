@@ -1,0 +1,57 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmhcetyoac1m0"]
+
+[ext_resource type="Texture2D" uid="uid://bte45agyyloyx" path="res://ui/theme.png" id="1_2abwt"]
+[ext_resource type="Script" uid="uid://cyfwb3gaja6nh" path="res://ui/theme/main_menu.gd" id="1_t37ax"]
+[ext_resource type="Theme" uid="uid://dpkmv7581osm0" path="res://ui/theme/theme.tres" id="2_t37ax"]
+
+[node name="Main menu" type="CanvasLayer"]
+script = ExtResource("1_t37ax")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -3.0
+offset_top = -5.0
+offset_right = 598.0
+offset_bottom = 471.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.481036, 0.425043)
+texture = ExtResource("1_2abwt")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 106.0
+offset_right = 6.0
+offset_bottom = 106.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.937742, 0.878389)
+theme = ExtResource("2_t37ax")
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
+self_modulate = Color(0, 0, 0, 1)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="Play" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Play"
+
+[node name="Quit" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Quit"
+
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/VBoxContainer/Quit" to="." method="_on_quit_pressed"]
