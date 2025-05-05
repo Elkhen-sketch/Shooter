@@ -1,15 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://bio0ua04b2gcp"]
+[gd_scene load_steps=5 format=3 uid="uid://bio0ua04b2gcp"]
 
-[ext_resource type="Texture2D" uid="uid://m33ri3f4fr25" path="res://bullet/bullet_ss.png" id="1_6wip1"]
+[ext_resource type="Texture2D" uid="uid://dct3vecf5bw7v" path="res://bullet/6737920.png" id="1_6wip1"]
 [ext_resource type="Script" uid="uid://f2fcb231b8fw" path="res://bullet/bullet.gd" id="2_v8qja"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0qjqd"]
-atlas = ExtResource("1_6wip1")
-region = Rect2(0, 0, 39, 38)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_xvnxm"]
-atlas = ExtResource("1_6wip1")
-region = Rect2(39, 0, 39, 38)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2b2rl"]
 animations = [{
@@ -20,10 +12,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_0qjqd")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_xvnxm")
+"texture": ExtResource("1_6wip1")
 }],
 "loop": true,
 "name": &"shot",
@@ -31,11 +20,11 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_v8qja"]
-radius = 14.9423
+radius = 350.471
 
 [node name="Bullet" type="AnimatedSprite2D"]
-position = Vector2(27.9324, 0.591663)
-scale = Vector2(0.157311, 0.126755)
+position = Vector2(17, -20)
+scale = Vector2(0.0256798, 0.0217391)
 sprite_frames = SubResource("SpriteFrames_2b2rl")
 animation = &"shot"
 autoplay = "shot"
@@ -52,7 +41,7 @@ collision_layer = 2
 collision_mask = 5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
-position = Vector2(-7.62939e-06, 0)
+position = Vector2(1.14441e-05, 1.52588e-05)
 shape = SubResource("CircleShape2D_v8qja")
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

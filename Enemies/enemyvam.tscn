@@ -107,8 +107,6 @@ scale = Vector2(2.07813, 2.12647)
 sprite_frames = SubResource("SpriteFrames_8vjxe")
 animation = &"walk_vam"
 autoplay = "Idle_vam"
-frame = 1
-frame_progress = 0.813689
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, -26)

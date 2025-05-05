@@ -26,6 +26,12 @@ func _physics_process(delta):
 	player_shooting(delta)
 	player_muzzle_position()
 
+	if Input.is_action_just_pressed("shoot"):
+		if $Shooting.playing:
+			$Shooting.stop()
+		else:
+			$Shooting.play()
+	queue_redraw()
 	
 	if shoot_timer <= 0:
 		player_falling(delta)
@@ -98,6 +104,7 @@ func player_animations():
 		animated_sprite_2d.play("Jump")
 	elif current_state == State.Shoot:
 		animated_sprite_2d.play("Shot1")
+
 	#match current_state:
 		#State.Idle:
 		#	animated_sprite_2d.play("Idle")
