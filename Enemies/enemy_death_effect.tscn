@@ -47,9 +47,15 @@ animations = [{
 "texture": SubResource("AtlasTexture_u1y7o")
 }, {
 "duration": 1.0,
-"texture": null
+"texture": SubResource("AtlasTexture_u1y7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u1y7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u1y7o")
 }],
-"loop": false,
+"loop": true,
 "name": &"enemy_death",
 "speed": 12.0
 }]

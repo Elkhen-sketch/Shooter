@@ -838,7 +838,7 @@ sources/7 = SubResource("TileSetAtlasSource_fm6e4")
 sources/8 = SubResource("TileSetAtlasSource_8d8lx")
 sources/9 = SubResource("TileSetAtlasSource_tro81")
 
-[node name="Test_level" instance=ExtResource("1_cygoe")]
+[node name="Demo" instance=ExtResource("1_cygoe")]
 position = Vector2(28, -46)
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="." index="0"]
@@ -953,6 +953,45 @@ position = Vector2(-116, 10)
 [node name="Point2" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam/PatrolPoints" index="1"]
 position = Vector2(130, 8)
 
+[node name="Enemyvam" parent="Enemyvam/Enemyvam/Enemyvam" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+position = Vector2(992, 669)
+patrol_points = NodePath("PatrolPoints")
+wait_time = 0
+
+[node name="PatrolPoints" type="Node2D" parent="Enemyvam/Enemyvam/Enemyvam/Enemyvam" index="2"]
+
+[node name="Point1" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam/Enemyvam/PatrolPoints" index="0"]
+position = Vector2(-116, 10)
+
+[node name="Point2" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam/Enemyvam/PatrolPoints" index="1"]
+position = Vector2(130, 8)
+
+[node name="Enemyvam2" parent="Enemyvam/Enemyvam" index="6" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+position = Vector2(-467, -1)
+patrol_points = NodePath("PatrolPoints")
+wait_time = 0
+
+[node name="PatrolPoints" type="Node2D" parent="Enemyvam/Enemyvam/Enemyvam2" index="2"]
+
+[node name="Point1" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam2/PatrolPoints" index="0"]
+position = Vector2(-116, 10)
+
+[node name="Point2" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam2/PatrolPoints" index="1"]
+position = Vector2(130, 8)
+
+[node name="Enemyvam" parent="Enemyvam/Enemyvam/Enemyvam2" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+position = Vector2(612, -359)
+patrol_points = NodePath("PatrolPoints")
+wait_time = 0
+
+[node name="PatrolPoints" type="Node2D" parent="Enemyvam/Enemyvam/Enemyvam2/Enemyvam" index="2"]
+
+[node name="Point1" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam2/Enemyvam/PatrolPoints" index="0"]
+position = Vector2(-116, 10)
+
+[node name="Point2" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam2/Enemyvam/PatrolPoints" index="1"]
+position = Vector2(130, 8)
+
 [node name="Enemyvam4" parent="." index="4" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
 position = Vector2(488, -217)
 patrol_points = NodePath("PatrolPoints")
@@ -977,6 +1016,19 @@ wait_time = 1
 position = Vector2(-141, 5)
 
 [node name="Point2" type="Marker2D" parent="Enemyvam3/PatrolPoints" index="1"]
+position = Vector2(134, 4)
+
+[node name="Enemyvam3" parent="Enemyvam3" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+position = Vector2(13, 871)
+patrol_points = NodePath("PatrolPoints")
+wait_time = 1
+
+[node name="PatrolPoints" type="Node2D" parent="Enemyvam3/Enemyvam3" index="2"]
+
+[node name="Point1" type="Marker2D" parent="Enemyvam3/Enemyvam3/PatrolPoints" index="0"]
+position = Vector2(-141, 5)
+
+[node name="Point2" type="Marker2D" parent="Enemyvam3/Enemyvam3/PatrolPoints" index="1"]
 position = Vector2(134, 4)
 
 [node name="Enemyvam5" parent="." index="6" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
@@ -1013,7 +1065,7 @@ light_mask = 2
 visibility_layer = 2
 z_index = -1
 z_as_relative = false
-position = Vector2(150, -111)
+position = Vector2(646, -123)
 texture = ExtResource("2_3s57f")
 
 [node name="6" type="Sprite2D" parent="Tree4" index="0"]
@@ -1063,7 +1115,7 @@ texture = ExtResource("9_hp3xu")
 
 [node name="Tree3" type="Sprite2D" parent="." index="9"]
 z_index = 2
-position = Vector2(435, -111)
+position = Vector2(191, -110)
 texture = ExtResource("8_ib474")
 
 [node name="1" type="Sprite2D" parent="Tree3" index="0"]
