@@ -1,4 +1,3 @@
-# Shooter
 # 🌸 Spreading Love: A Non-Violent Shooter Game
 
 **Author:** Enkhtushig Legdenbold  
@@ -19,11 +18,12 @@ The environment and characters are carefully designed to complement each other a
 
 ## 🕹️ Game Controls
 
-| Key      | Action        |
+| Key      | Action         |
 |----------|----------------|
+| `S`      | Shoot Flower   |
 | `Space`  | Jump           |
 | `A`      | Move Left      |
-| `S`      | Shoot Flower   |
+| `D`      | Move Right     |
 
 🗺️ *Note: The game map scrolls upward as you progress.*
 
@@ -51,6 +51,8 @@ The environment and characters are carefully designed to complement each other a
 | `Character Design`  | Partially self-designed             |
 | `Animations`        | Pre-built assets                    |
 | `Other Assets`      | Partially made and customized       |
+| `Music`             | Pixabay - Pixel song                |
+| `Bullet Song`       | Pixabay - Retro laser               |
 
 ## ✨ Visual and Learning Highlights
 
