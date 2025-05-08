@@ -22,7 +22,7 @@ The environment and characters are carefully designed to complement each other a
 | Key     | Action         |
 |---------|----------------|
 | `S`     | Shoot Flower   |
-| `Space` | Jump           |
+| `Space` | Fly           |
 | `A`     | Move Left      |
 | `D`     | Move Right     |
 

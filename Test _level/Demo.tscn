@@ -1,34 +1,34 @@
 [gd_scene load_steps=38 format=3 uid="uid://fyukux11bcdy"]
 
-[ext_resource type="PackedScene" uid="uid://bhkl3bk6de24l" path="res://Basic_level.tscn" id="1_cygoe"]
-[ext_resource type="Texture2D" uid="uid://daj85irw0eb2r" path="res://new tileset/3 Objects/Other/Tree4.png" id="2_3s57f"]
-[ext_resource type="Texture2D" uid="uid://ba4cpbdd1jb7" path="res://new tileset/2 Background/Day/1.png" id="2_hs1of"]
-[ext_resource type="PackedScene" uid="uid://bjlpjkyijqc16" path="res://Enemies/enemyvam.tscn" id="2_k76ep"]
-[ext_resource type="Texture2D" uid="uid://blyw301cml3xv" path="res://new tileset/2 Background/Night/1.png" id="2_ucp0a"]
-[ext_resource type="Texture2D" uid="uid://bk25daoehqm0o" path="res://new tileset/2 Background/Night/5.png" id="3_ucp0a"]
-[ext_resource type="Texture2D" uid="uid://dox7gthaewiqw" path="res://new tileset/3 Objects/Stones/1.png" id="4_8ff8l"]
-[ext_resource type="Texture2D" uid="uid://d21h6oq0xw4je" path="res://new tileset/1 Tiles/Tile_01.png" id="4_ucp0a"]
-[ext_resource type="Texture2D" uid="uid://cwo7i11iifmkj" path="res://new tileset/3 Objects/Other/Tree3.png" id="8_ib474"]
-[ext_resource type="Texture2D" uid="uid://c20hxumfp45jg" path="res://new tileset/3 Objects/Benches/2.png" id="9_hp3xu"]
-[ext_resource type="Texture2D" uid="uid://xwotovdmxcba" path="res://new tileset/3 Objects/Leaf/6.png" id="11_o30j2"]
-[ext_resource type="Texture2D" uid="uid://ch73u4loduou1" path="res://new tileset/3 Objects/Leaf/5.png" id="12_odyfk"]
-[ext_resource type="Texture2D" uid="uid://tcj7ujnkqh35" path="res://new tileset/3 Objects/Leaf/4.png" id="13_k3325"]
-[ext_resource type="AudioStream" uid="uid://bmsfwtnjly178" path="res://new tileset/2 Background/Day/retro-laser-1-236669.mp3" id="14_8d8lx"]
-[ext_resource type="Texture2D" uid="uid://x612qn15aiir" path="res://new tileset/3 Objects/Leaf/3.png" id="14_uvkyo"]
-[ext_resource type="Texture2D" uid="uid://b6qsst2ll14jj" path="res://new tileset/3 Objects/Leaf/2.png" id="15_plwf3"]
-[ext_resource type="Texture2D" uid="uid://b6c1orl6argks" path="res://new tileset/1 Tiles/Tile_33.png" id="16_4fypd"]
-[ext_resource type="Texture2D" uid="uid://qcoli424g7xf" path="res://new tileset/3 Objects/Leaf/1.png" id="16_o3he8"]
-[ext_resource type="Texture2D" uid="uid://bx43gvl3r5ivv" path="res://new tileset/1 Tiles/Tile_73.png" id="17_uucs1"]
-[ext_resource type="Texture2D" uid="uid://b62r0mxc7psbn" path="res://new tileset/1 Tiles/Tile_54.png" id="18_s8dbs"]
-[ext_resource type="Texture2D" uid="uid://ctuvqcb6lr3vx" path="res://new tileset/1 Tiles/Tile_55.png" id="19_fm6e4"]
-[ext_resource type="Texture2D" uid="uid://caba431r5rxmm" path="res://new tileset/1 Tiles/Tile_44.png" id="20_8d8lx"]
-[ext_resource type="Texture2D" uid="uid://b6cl7t82k6vdy" path="res://new tileset/1 Tiles/Tile_47.png" id="21_uucs1"]
-[ext_resource type="Texture2D" uid="uid://chqiyesv4qnbb" path="res://new tileset/1 Tiles/Tile_72.png" id="22_s8dbs"]
-[ext_resource type="Texture2D" uid="uid://bs5xalrjxnrsw" path="res://new tileset/1 Tiles/Tile_40.png" id="23_s8dbs"]
-[ext_resource type="AudioStream" uid="uid://cf0nrphtjwk4r" path="res://new tileset/2 Background/Day/pixel-song-19-31953.mp3" id="25_fm6e4"]
+[ext_resource type="PackedScene" uid="uid://bhkl3bk6de24l" path="res://Basic_level.tscn" id="1_mk1pw"]
+[ext_resource type="Texture2D" uid="uid://blyw301cml3xv" path="res://new tileset/2 Background/Night/1.png" id="2_lg3o1"]
+[ext_resource type="Texture2D" uid="uid://ba4cpbdd1jb7" path="res://new tileset/2 Background/Day/1.png" id="3_pkn0c"]
+[ext_resource type="Texture2D" uid="uid://bk25daoehqm0o" path="res://new tileset/2 Background/Night/5.png" id="4_qx5t7"]
+[ext_resource type="Texture2D" uid="uid://d21h6oq0xw4je" path="res://new tileset/1 Tiles/Tile_01.png" id="5_kdlwc"]
+[ext_resource type="Texture2D" uid="uid://b6c1orl6argks" path="res://new tileset/1 Tiles/Tile_33.png" id="6_54md6"]
+[ext_resource type="Texture2D" uid="uid://bx43gvl3r5ivv" path="res://new tileset/1 Tiles/Tile_73.png" id="7_04a1v"]
+[ext_resource type="Texture2D" uid="uid://b62r0mxc7psbn" path="res://new tileset/1 Tiles/Tile_54.png" id="8_fvasn"]
+[ext_resource type="Texture2D" uid="uid://ctuvqcb6lr3vx" path="res://new tileset/1 Tiles/Tile_55.png" id="9_wyiv4"]
+[ext_resource type="Texture2D" uid="uid://caba431r5rxmm" path="res://new tileset/1 Tiles/Tile_44.png" id="10_hcur7"]
+[ext_resource type="Texture2D" uid="uid://b6cl7t82k6vdy" path="res://new tileset/1 Tiles/Tile_47.png" id="11_6d28c"]
+[ext_resource type="Texture2D" uid="uid://chqiyesv4qnbb" path="res://new tileset/1 Tiles/Tile_72.png" id="12_cmirg"]
+[ext_resource type="Texture2D" uid="uid://bs5xalrjxnrsw" path="res://new tileset/1 Tiles/Tile_40.png" id="13_rntc5"]
+[ext_resource type="AudioStream" uid="uid://bmsfwtnjly178" path="res://new tileset/2 Background/Day/retro-laser-1-236669.mp3" id="14_65888"]
+[ext_resource type="AudioStream" uid="uid://cf0nrphtjwk4r" path="res://new tileset/2 Background/Day/pixel-song-19-31953.mp3" id="15_7sneh"]
+[ext_resource type="PackedScene" uid="uid://bjlpjkyijqc16" path="res://Enemies/enemyvam.tscn" id="16_jvfci"]
+[ext_resource type="Texture2D" uid="uid://daj85irw0eb2r" path="res://new tileset/3 Objects/Other/Tree4.png" id="17_81olm"]
+[ext_resource type="Texture2D" uid="uid://xwotovdmxcba" path="res://new tileset/3 Objects/Leaf/6.png" id="18_w6ume"]
+[ext_resource type="Texture2D" uid="uid://ch73u4loduou1" path="res://new tileset/3 Objects/Leaf/5.png" id="19_2sm65"]
+[ext_resource type="Texture2D" uid="uid://tcj7ujnkqh35" path="res://new tileset/3 Objects/Leaf/4.png" id="20_b3wd0"]
+[ext_resource type="Texture2D" uid="uid://x612qn15aiir" path="res://new tileset/3 Objects/Leaf/3.png" id="21_0ar6c"]
+[ext_resource type="Texture2D" uid="uid://b6qsst2ll14jj" path="res://new tileset/3 Objects/Leaf/2.png" id="22_duuxg"]
+[ext_resource type="Texture2D" uid="uid://qcoli424g7xf" path="res://new tileset/3 Objects/Leaf/1.png" id="23_hff85"]
+[ext_resource type="Texture2D" uid="uid://c20hxumfp45jg" path="res://new tileset/3 Objects/Benches/2.png" id="24_m5cpt"]
+[ext_resource type="Texture2D" uid="uid://cwo7i11iifmkj" path="res://new tileset/3 Objects/Other/Tree3.png" id="25_ylb1t"]
+[ext_resource type="Texture2D" uid="uid://dox7gthaewiqw" path="res://new tileset/3 Objects/Stones/1.png" id="26_35lyn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_53evu"]
-texture = ExtResource("2_hs1of")
+texture = ExtResource("3_pkn0c")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -751,7 +751,7 @@ texture = ExtResource("2_hs1of")
 35:19/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_be3nb"]
-texture = ExtResource("4_ucp0a")
+texture = ExtResource("5_kdlwc")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -762,7 +762,7 @@ texture = ExtResource("4_ucp0a")
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vj7mb"]
-texture = ExtResource("16_4fypd")
+texture = ExtResource("6_54md6")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -773,42 +773,42 @@ texture = ExtResource("16_4fypd")
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p1u0a"]
-texture = ExtResource("17_uucs1")
+texture = ExtResource("7_04a1v")
 0:0/0 = 0
 1:0/0 = 0
 0:1/0 = 0
 1:1/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_83qnd"]
-texture = ExtResource("18_s8dbs")
+texture = ExtResource("8_fvasn")
 0:0/0 = 0
 1:0/0 = 0
 0:1/0 = 0
 1:1/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1d1fq"]
-texture = ExtResource("19_fm6e4")
+texture = ExtResource("9_wyiv4")
 0:0/0 = 0
 1:0/0 = 0
 0:1/0 = 0
 1:1/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qtw2o"]
-texture = ExtResource("20_8d8lx")
+texture = ExtResource("10_hcur7")
 0:0/0 = 0
 1:0/0 = 0
 0:1/0 = 0
 1:1/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fm6e4"]
-texture = ExtResource("21_uucs1")
+texture = ExtResource("11_6d28c")
 0:0/0 = 0
 1:0/0 = 0
 0:1/0 = 0
 1:1/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8d8lx"]
-texture = ExtResource("22_s8dbs")
+texture = ExtResource("12_cmirg")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -819,7 +819,7 @@ texture = ExtResource("22_s8dbs")
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tro81"]
-texture = ExtResource("23_s8dbs")
+texture = ExtResource("13_rntc5")
 0:0/0 = 0
 1:0/0 = 0
 0:1/0 = 0
@@ -838,7 +838,7 @@ sources/7 = SubResource("TileSetAtlasSource_fm6e4")
 sources/8 = SubResource("TileSetAtlasSource_8d8lx")
 sources/9 = SubResource("TileSetAtlasSource_tro81")
 
-[node name="Demo" instance=ExtResource("1_cygoe")]
+[node name="Demo" instance=ExtResource("1_mk1pw")]
 position = Vector2(28, -46)
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="." index="0"]
@@ -851,13 +851,13 @@ motion_mirroring = Vector2(240, 0)
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" index="0"]
 position = Vector2(9, -300)
 scale = Vector2(2.03472, 1.78086)
-texture = ExtResource("2_ucp0a")
+texture = ExtResource("2_lg3o1")
 centered = false
 
 [node name="Sprite2D2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" index="1"]
 position = Vector2(-512, -300)
 scale = Vector2(2.03472, 1.78086)
-texture = ExtResource("2_ucp0a")
+texture = ExtResource("2_lg3o1")
 centered = false
 
 [node name="3" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" index="2"]
@@ -865,7 +865,7 @@ modulate = Color(0.36, 0.36, 0.36, 1)
 z_index = -2
 position = Vector2(1213, -563)
 scale = Vector2(8.58815, 6.71354)
-texture = ExtResource("2_hs1of")
+texture = ExtResource("3_pkn0c")
 
 [node name="midle ground" type="ParallaxLayer" parent="ParallaxBackground" index="1"]
 motion_mirroring = Vector2(576, 0)
@@ -874,11 +874,11 @@ motion_mirroring = Vector2(576, 0)
 
 [node name="5" type="Sprite2D" parent="ParallaxBackground/midle ground" index="1"]
 position = Vector2(285, 114)
-texture = ExtResource("3_ucp0a")
+texture = ExtResource("4_qx5t7")
 
 [node name="6" type="Sprite2D" parent="ParallaxBackground/midle ground" index="2"]
 position = Vector2(-864, 114)
-texture = ExtResource("3_ucp0a")
+texture = ExtResource("4_qx5t7")
 
 [node name="1" type="Sprite2D" parent="." index="1"]
 position = Vector2(43, -67)
@@ -903,18 +903,18 @@ scale = Vector2(0.994353, 1.00229)
 offset = Vector2(82, -27)
 
 [node name="Shooting" type="AudioStreamPlayer2D" parent="TileMap/Player" index="4"]
-stream = ExtResource("14_8d8lx")
+stream = ExtResource("14_65888")
 volume_db = -20.594
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="TileMap/Player" index="5"]
 position = Vector2(-12, -6)
-stream = ExtResource("25_fm6e4")
+stream = ExtResource("15_7sneh")
 volume_db = -31.921
 autoplay = true
 area_mask = 7
 parameters/looping = true
 
-[node name="Enemyvam" parent="." index="3" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam" parent="." index="3" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(547, -34)
 patrol_points = NodePath("PatrolPoints")
 wait_time = 0
@@ -927,7 +927,7 @@ position = Vector2(-116, 10)
 [node name="Point2" type="Marker2D" parent="Enemyvam/PatrolPoints" index="1"]
 position = Vector2(130, 8)
 
-[node name="Enemyvam" parent="Enemyvam" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam" parent="Enemyvam" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(414, -398)
 patrol_points = NodePath("PatrolPoints")
 wait_time = 0
@@ -940,7 +940,7 @@ position = Vector2(-116, 10)
 [node name="Point2" type="Marker2D" parent="Enemyvam/Enemyvam/PatrolPoints" index="1"]
 position = Vector2(130, 8)
 
-[node name="Enemyvam" parent="Enemyvam/Enemyvam" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam" parent="Enemyvam/Enemyvam" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(-789, -464)
 patrol_points = NodePath("PatrolPoints")
 wait_time = 0
@@ -953,7 +953,7 @@ position = Vector2(-116, 10)
 [node name="Point2" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam/PatrolPoints" index="1"]
 position = Vector2(130, 8)
 
-[node name="Enemyvam" parent="Enemyvam/Enemyvam/Enemyvam" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam" parent="Enemyvam/Enemyvam/Enemyvam" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(992, 669)
 patrol_points = NodePath("PatrolPoints")
 wait_time = 0
@@ -966,7 +966,7 @@ position = Vector2(-116, 10)
 [node name="Point2" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam/Enemyvam/PatrolPoints" index="1"]
 position = Vector2(130, 8)
 
-[node name="Enemyvam2" parent="Enemyvam/Enemyvam" index="6" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam2" parent="Enemyvam/Enemyvam" index="6" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(-467, -1)
 patrol_points = NodePath("PatrolPoints")
 wait_time = 0
@@ -979,7 +979,7 @@ position = Vector2(-116, 10)
 [node name="Point2" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam2/PatrolPoints" index="1"]
 position = Vector2(130, 8)
 
-[node name="Enemyvam" parent="Enemyvam/Enemyvam/Enemyvam2" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam" parent="Enemyvam/Enemyvam/Enemyvam2" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(612, -359)
 patrol_points = NodePath("PatrolPoints")
 wait_time = 0
@@ -992,7 +992,7 @@ position = Vector2(-116, 10)
 [node name="Point2" type="Marker2D" parent="Enemyvam/Enemyvam/Enemyvam2/Enemyvam/PatrolPoints" index="1"]
 position = Vector2(130, 8)
 
-[node name="Enemyvam4" parent="." index="4" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam4" parent="." index="4" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(488, -217)
 patrol_points = NodePath("PatrolPoints")
 wait_time = 1
@@ -1005,7 +1005,7 @@ position = Vector2(-141, 5)
 [node name="Point2" type="Marker2D" parent="Enemyvam4/PatrolPoints" index="1"]
 position = Vector2(134, 4)
 
-[node name="Enemyvam3" parent="." index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam3" parent="." index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(716, -903)
 patrol_points = NodePath("PatrolPoints")
 wait_time = 1
@@ -1018,7 +1018,7 @@ position = Vector2(-141, 5)
 [node name="Point2" type="Marker2D" parent="Enemyvam3/PatrolPoints" index="1"]
 position = Vector2(134, 4)
 
-[node name="Enemyvam3" parent="Enemyvam3" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam3" parent="Enemyvam3" index="5" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(13, 871)
 patrol_points = NodePath("PatrolPoints")
 wait_time = 1
@@ -1031,7 +1031,7 @@ position = Vector2(-141, 5)
 [node name="Point2" type="Marker2D" parent="Enemyvam3/Enemyvam3/PatrolPoints" index="1"]
 position = Vector2(134, 4)
 
-[node name="Enemyvam5" parent="." index="6" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam5" parent="." index="6" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(1500, -615)
 patrol_points = NodePath("PatrolPoints")
 speed = 3000
@@ -1045,7 +1045,7 @@ position = Vector2(-32, 3)
 [node name="Point2" type="Marker2D" parent="Enemyvam5/PatrolPoints" index="1"]
 position = Vector2(36, 6)
 
-[node name="Enemyvam2" parent="." index="7" node_paths=PackedStringArray("patrol_points") instance=ExtResource("2_k76ep")]
+[node name="Enemyvam2" parent="." index="7" node_paths=PackedStringArray("patrol_points") instance=ExtResource("16_jvfci")]
 position = Vector2(1236, -39)
 patrol_points = NodePath("PatrolPoints")
 speed = 3000
@@ -1066,285 +1066,285 @@ visibility_layer = 2
 z_index = -1
 z_as_relative = false
 position = Vector2(646, -123)
-texture = ExtResource("2_3s57f")
+texture = ExtResource("17_81olm")
 
 [node name="6" type="Sprite2D" parent="Tree4" index="0"]
 position = Vector2(48, 25)
-texture = ExtResource("11_o30j2")
+texture = ExtResource("18_w6ume")
 
 [node name="5" type="Sprite2D" parent="Tree4" index="1"]
 position = Vector2(57, 38)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("12_odyfk")
+texture = ExtResource("19_2sm65")
 
 [node name="4" type="Sprite2D" parent="Tree4" index="2"]
 position = Vector2(79, 39)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("13_k3325")
+texture = ExtResource("20_b3wd0")
 
 [node name="3" type="Sprite2D" parent="Tree4" index="3"]
 position = Vector2(74, 14)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("14_uvkyo")
+texture = ExtResource("21_0ar6c")
 
 [node name="7" type="Sprite2D" parent="Tree4" index="4"]
 position = Vector2(32, 31)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="8" type="Sprite2D" parent="Tree4" index="5"]
 position = Vector2(-1, 93)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("11_o30j2")
+texture = ExtResource("18_w6ume")
 
 [node name="1" type="Sprite2D" parent="Tree4" index="6"]
 position = Vector2(21, 92)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("16_o3he8")
+texture = ExtResource("23_hff85")
 
 [node name="9" type="Sprite2D" parent="Tree4" index="7"]
 position = Vector2(98, 93)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="2" type="Sprite2D" parent="Tree4" index="8"]
 modulate = Color(0.43, 0.43, 0.43, 1)
 position = Vector2(49.5, 78)
 scale = Vector2(1.4375, 1.54545)
-texture = ExtResource("9_hp3xu")
+texture = ExtResource("24_m5cpt")
 
 [node name="Tree3" type="Sprite2D" parent="." index="9"]
 z_index = 2
 position = Vector2(191, -110)
-texture = ExtResource("8_ib474")
+texture = ExtResource("25_ylb1t")
 
 [node name="1" type="Sprite2D" parent="Tree3" index="0"]
 position = Vector2(-22, 89)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("4_8ff8l")
+texture = ExtResource("26_35lyn")
 
 [node name="9" type="Sprite2D" parent="Tree3/1" index="0"]
 position = Vector2(45.2632, 0)
-texture = ExtResource("16_o3he8")
+texture = ExtResource("23_hff85")
 
 [node name="10" type="Sprite2D" parent="Tree3/1" index="1"]
 position = Vector2(48.9474, -31.92)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="11" type="Sprite2D" parent="Tree3/1" index="2"]
 position = Vector2(34.2105, -13.44)
-texture = ExtResource("14_uvkyo")
+texture = ExtResource("21_0ar6c")
 
 [node name="12" type="Sprite2D" parent="Tree3/1" index="3"]
 position = Vector2(44.7368, -19.6)
-texture = ExtResource("13_k3325")
+texture = ExtResource("20_b3wd0")
 
 [node name="13" type="Sprite2D" parent="Tree3/1" index="4"]
 position = Vector2(43.6842, -45.36)
-texture = ExtResource("12_odyfk")
+texture = ExtResource("19_2sm65")
 
 [node name="14" type="Sprite2D" parent="Tree3/1" index="5"]
 position = Vector2(24.2105, 2.24)
-texture = ExtResource("11_o30j2")
+texture = ExtResource("18_w6ume")
 
 [node name="15" type="Sprite2D" parent="Tree3/1" index="6"]
 position = Vector2(-4.73685, 0.560001)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="Tree6" type="Sprite2D" parent="." index="10"]
 z_index = 2
 position = Vector2(1337, -111)
-texture = ExtResource("8_ib474")
+texture = ExtResource("25_ylb1t")
 
 [node name="1" type="Sprite2D" parent="Tree6" index="0"]
 position = Vector2(-22, 89)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("4_8ff8l")
+texture = ExtResource("26_35lyn")
 
 [node name="9" type="Sprite2D" parent="Tree6/1" index="0"]
 position = Vector2(45.2632, 0)
-texture = ExtResource("16_o3he8")
+texture = ExtResource("23_hff85")
 
 [node name="10" type="Sprite2D" parent="Tree6/1" index="1"]
 position = Vector2(48.9474, -31.92)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="11" type="Sprite2D" parent="Tree6/1" index="2"]
 position = Vector2(34.2105, -13.44)
-texture = ExtResource("14_uvkyo")
+texture = ExtResource("21_0ar6c")
 
 [node name="12" type="Sprite2D" parent="Tree6/1" index="3"]
 position = Vector2(44.7368, -19.6)
-texture = ExtResource("13_k3325")
+texture = ExtResource("20_b3wd0")
 
 [node name="13" type="Sprite2D" parent="Tree6/1" index="4"]
 position = Vector2(43.6842, -45.36)
-texture = ExtResource("12_odyfk")
+texture = ExtResource("19_2sm65")
 
 [node name="14" type="Sprite2D" parent="Tree6/1" index="5"]
 position = Vector2(24.2105, 2.24)
-texture = ExtResource("11_o30j2")
+texture = ExtResource("18_w6ume")
 
 [node name="15" type="Sprite2D" parent="Tree6/1" index="6"]
 position = Vector2(-4.73685, 0.560001)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="Tree5" type="Sprite2D" parent="." index="11"]
 modulate = Color(0.14, 0.14, 0.14, 1)
 z_index = -1
 z_as_relative = false
 position = Vector2(855, -111)
-texture = ExtResource("8_ib474")
+texture = ExtResource("25_ylb1t")
 
 [node name="1" type="Sprite2D" parent="Tree5" index="0"]
 position = Vector2(-22, 89)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("4_8ff8l")
+texture = ExtResource("26_35lyn")
 
 [node name="9" type="Sprite2D" parent="Tree5/1" index="0"]
 position = Vector2(45.2632, 0)
-texture = ExtResource("16_o3he8")
+texture = ExtResource("23_hff85")
 
 [node name="10" type="Sprite2D" parent="Tree5/1" index="1"]
 position = Vector2(48.9474, -31.92)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="11" type="Sprite2D" parent="Tree5/1" index="2"]
 position = Vector2(34.2105, -13.44)
-texture = ExtResource("14_uvkyo")
+texture = ExtResource("21_0ar6c")
 
 [node name="12" type="Sprite2D" parent="Tree5/1" index="3"]
 position = Vector2(44.7368, -19.6)
-texture = ExtResource("13_k3325")
+texture = ExtResource("20_b3wd0")
 
 [node name="13" type="Sprite2D" parent="Tree5/1" index="4"]
 position = Vector2(43.6842, -45.36)
-texture = ExtResource("12_odyfk")
+texture = ExtResource("19_2sm65")
 
 [node name="14" type="Sprite2D" parent="Tree5/1" index="5"]
 position = Vector2(24.2105, 2.24)
-texture = ExtResource("11_o30j2")
+texture = ExtResource("18_w6ume")
 
 [node name="15" type="Sprite2D" parent="Tree5/1" index="6"]
 position = Vector2(-4.73685, 0.560001)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="Tree7" type="Sprite2D" parent="." index="12"]
 modulate = Color(0.14, 0.14, 0.14, 1)
 z_index = -1
 z_as_relative = false
 position = Vector2(935, -111)
-texture = ExtResource("8_ib474")
+texture = ExtResource("25_ylb1t")
 
 [node name="1" type="Sprite2D" parent="Tree7" index="0"]
 position = Vector2(-22, 89)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("4_8ff8l")
+texture = ExtResource("26_35lyn")
 
 [node name="9" type="Sprite2D" parent="Tree7/1" index="0"]
 position = Vector2(45.2632, 0)
-texture = ExtResource("16_o3he8")
+texture = ExtResource("23_hff85")
 
 [node name="10" type="Sprite2D" parent="Tree7/1" index="1"]
 position = Vector2(48.9474, -31.92)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="11" type="Sprite2D" parent="Tree7/1" index="2"]
 position = Vector2(34.2105, -13.44)
-texture = ExtResource("14_uvkyo")
+texture = ExtResource("21_0ar6c")
 
 [node name="12" type="Sprite2D" parent="Tree7/1" index="3"]
 position = Vector2(44.7368, -19.6)
-texture = ExtResource("13_k3325")
+texture = ExtResource("20_b3wd0")
 
 [node name="13" type="Sprite2D" parent="Tree7/1" index="4"]
 position = Vector2(43.6842, -45.36)
-texture = ExtResource("12_odyfk")
+texture = ExtResource("19_2sm65")
 
 [node name="14" type="Sprite2D" parent="Tree7/1" index="5"]
 position = Vector2(24.2105, 2.24)
-texture = ExtResource("11_o30j2")
+texture = ExtResource("18_w6ume")
 
 [node name="15" type="Sprite2D" parent="Tree7/1" index="6"]
 position = Vector2(-4.73685, 0.560001)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="Tree8" type="Sprite2D" parent="." index="13"]
 modulate = Color(0.14, 0.14, 0.14, 1)
 z_index = -1
 z_as_relative = false
 position = Vector2(735, -510)
-texture = ExtResource("8_ib474")
+texture = ExtResource("25_ylb1t")
 
 [node name="1" type="Sprite2D" parent="Tree8" index="0"]
 position = Vector2(-22, 89)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("4_8ff8l")
+texture = ExtResource("26_35lyn")
 
 [node name="9" type="Sprite2D" parent="Tree8/1" index="0"]
 position = Vector2(45.2632, 0)
-texture = ExtResource("16_o3he8")
+texture = ExtResource("23_hff85")
 
 [node name="10" type="Sprite2D" parent="Tree8/1" index="1"]
 position = Vector2(48.9474, -31.92)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="11" type="Sprite2D" parent="Tree8/1" index="2"]
 position = Vector2(34.2105, -13.44)
-texture = ExtResource("14_uvkyo")
+texture = ExtResource("21_0ar6c")
 
 [node name="12" type="Sprite2D" parent="Tree8/1" index="3"]
 position = Vector2(44.7368, -19.6)
-texture = ExtResource("13_k3325")
+texture = ExtResource("20_b3wd0")
 
 [node name="13" type="Sprite2D" parent="Tree8/1" index="4"]
 position = Vector2(43.6842, -45.36)
-texture = ExtResource("12_odyfk")
+texture = ExtResource("19_2sm65")
 
 [node name="14" type="Sprite2D" parent="Tree8/1" index="5"]
 position = Vector2(24.2105, 2.24)
-texture = ExtResource("11_o30j2")
+texture = ExtResource("18_w6ume")
 
 [node name="15" type="Sprite2D" parent="Tree8/1" index="6"]
 position = Vector2(-4.73685, 0.560001)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="Tree9" type="Sprite2D" parent="." index="14"]
 modulate = Color(0.14, 0.14, 0.14, 1)
 z_index = -1
 z_as_relative = false
 position = Vector2(1096, -862)
-texture = ExtResource("8_ib474")
+texture = ExtResource("25_ylb1t")
 
 [node name="1" type="Sprite2D" parent="Tree9" index="0"]
 position = Vector2(-22, 89)
 scale = Vector2(1.9, 1.78571)
-texture = ExtResource("4_8ff8l")
+texture = ExtResource("26_35lyn")
 
 [node name="9" type="Sprite2D" parent="Tree9/1" index="0"]
 position = Vector2(45.2632, 0)
-texture = ExtResource("16_o3he8")
+texture = ExtResource("23_hff85")
 
 [node name="10" type="Sprite2D" parent="Tree9/1" index="1"]
 position = Vector2(48.9474, -31.92)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
 
 [node name="11" type="Sprite2D" parent="Tree9/1" index="2"]
 position = Vector2(34.2105, -13.44)
-texture = ExtResource("14_uvkyo")
+texture = ExtResource("21_0ar6c")
 
 [node name="12" type="Sprite2D" parent="Tree9/1" index="3"]
 position = Vector2(44.7368, -19.6)
-texture = ExtResource("13_k3325")
+texture = ExtResource("20_b3wd0")
 
 [node name="13" type="Sprite2D" parent="Tree9/1" index="4"]
 position = Vector2(43.6842, -45.36)
-texture = ExtResource("12_odyfk")
+texture = ExtResource("19_2sm65")
 
 [node name="14" type="Sprite2D" parent="Tree9/1" index="5"]
 position = Vector2(24.2105, 2.24)
-texture = ExtResource("11_o30j2")
+texture = ExtResource("18_w6ume")
 
 [node name="15" type="Sprite2D" parent="Tree9/1" index="6"]
 position = Vector2(-4.73685, 0.560001)
-texture = ExtResource("15_plwf3")
+texture = ExtResource("22_duuxg")
